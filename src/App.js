@@ -24,7 +24,7 @@ function App() {
     <Router>
       <Navbar_2/>
       <Switch>
-        <Route exact path="planilla-iepe/">
+        <Route exact path="/">
         <div className="container p-4">
         <div className="row">
           <Links />

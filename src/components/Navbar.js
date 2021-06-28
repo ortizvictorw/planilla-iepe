@@ -10,7 +10,7 @@ export const Navbar_2 = () => {
   return (
     <div>
       <Navbar bg="primary" variant="dark">
-        <Link className="text-white" to="planilla-iepe/"><h1>IEPE</h1></Link>
+        <Link className="text-white" to="/"><h1>IEPE</h1></Link>
         <Nav className="mr-auto">
           <Link className="text-white btn mx-1" to="planilla-iepe/sabado-primera">Sabado Primera</Link>
           <Link className="text-white btn mx-1" to="planilla-iepe/sabado-segunda">Sabado Segunda</Link>

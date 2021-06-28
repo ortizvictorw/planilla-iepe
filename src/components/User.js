@@ -8,7 +8,7 @@ export const User = () => {
   let history = useHistory();
   const handleLogout = async (e) => {
     e.preventDefault();
-    history.push("planilla-iepe/");
+    history.push("/");
   };
   const initialStateValues = {
     fecha: "",

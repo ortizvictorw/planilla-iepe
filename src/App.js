@@ -22,9 +22,9 @@ import SabadoListSegunda from "./components/SabadoListSegunda";
 function App() {
   return (
     <Router>
-      <Navbar_2/>
       <Switch>
-        <Route exact path="/planilla-iepe/">
+        <Route exact path="/">
+        <Navbar_2/>
         <div className="container p-4">
         <div className="row">
           <Links />

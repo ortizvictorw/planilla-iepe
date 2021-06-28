@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/planilla-iepe/precache-manifest.4afe45cb287626f4b8b33a692c9a4b11.js"
+  "/planilla-iepe/precache-manifest.1a3b3cf5cdd69e00d81cf2c345102385.js"
 );
 
 self.addEventListener('message', (event) => {

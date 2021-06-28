@@ -97,6 +97,8 @@ const LinksForm = (props) => {
 
   return (
     <>
+    <div className="d-flex justify-content-around row">
+      <div className="col-12">
       <form onSubmit={handleSubmit} className="card card-body border-primary">
         <div className="form-group input-group">
           <div className="input-group-text bg-light">
@@ -157,11 +159,16 @@ const LinksForm = (props) => {
         </div>
 
         <button className="btn btn-primary btn-block">Reservar</button>
+      <small >Solo se registraran mayores de 12 años</small>
       </form>
+      </div>
 
+      </div>
+{/* 
       <button className="btn btn-success btn-block mt-1" onClick={handleLogin}>
         Login
       </button>
+ */}
 
       <div className="card-body">
         {isLoanding ? (
@@ -172,6 +179,7 @@ const LinksForm = (props) => {
           </>
         )}
       </div>
+      
     </>
   );
 };

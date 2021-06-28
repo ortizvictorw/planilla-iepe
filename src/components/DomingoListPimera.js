@@ -62,11 +62,11 @@ const DomingoListPrimera = () => {
   return (
     <div className="container">
       <h1>
-        Domingo Primera Reunion{" "}
+        Domingo Primera Reunión{" "}
         {contador ? (
           <h2>Cupos Libres {180 - contador}</h2>
         ) : 180 - contador === 0 ? (
-          <h2>Reunion Llena</h2>
+          <h2>Reunión Llena</h2>
         ) : (
           ""
         )}

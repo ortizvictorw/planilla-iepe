@@ -22,8 +22,6 @@ import SabadoListSegunda from "./components/SabadoListSegunda";
 function App() {
   return (
     <Router>
-      <Switch>
-        <Route exact path="/">
         <Navbar_2/>
         <div className="container p-4">
         <div className="row">
@@ -31,20 +29,21 @@ function App() {
         </div>
         <ToastContainer />
       </div>
-        </Route>
-        <Route exact path="/planilla-iepe/user">
+      <Switch>
+        
+        <Route exact path="/user">
           <User />
         </Route>
-        <Route exact path="/planilla-iepe/sabado-primera">
+        <Route exact path="/sabado-primera">
           <SabadoListPimera />
         </Route>
-        <Route exact path="/planilla-iepe/sabado-segunda">
+        <Route exact path="/sabado-segunda">
           <SabadoListSegunda />
         </Route>
-        <Route exact path="/planilla-iepe/domingo-primera">
+        <Route exact path="/domingo-primera">
           <DomingoListPrimera />
         </Route>
-        <Route exact path="/planilla-iepe/domingo-segunda">
+        <Route exact path="/domingo-segunda">
           <DomingoListSegunda />
         </Route>
       </Switch>

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f1ddd769dc6f7ad667443b4b148ec5d7",
+    "revision": "378d095240aa8698dd74c1805e207ca5",
     "url": "/planilla-iepe/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/planilla-iepe/static/css/2.0cd25043.chunk.css"
   },
   {
-    "revision": "01b3a7e0b437d67c4f5f",
+    "revision": "be11190a1b3446215fae",
     "url": "/planilla-iepe/static/css/main.1689b37b.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/planilla-iepe/static/js/2.90092452.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "01b3a7e0b437d67c4f5f",
-    "url": "/planilla-iepe/static/js/main.1cf32499.chunk.js"
+    "revision": "be11190a1b3446215fae",
+    "url": "/planilla-iepe/static/js/main.2db645bd.chunk.js"
   },
   {
     "revision": "fb3695301ff6147ff68e",

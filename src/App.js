@@ -24,7 +24,7 @@ function App() {
     <Router>
       <Navbar_2/>
       <Switch>
-        <Route exact path="/">
+        <Route exact path="planilla-iepe/">
         <div className="container p-4">
         <div className="row">
           <Links />
@@ -32,19 +32,19 @@ function App() {
         <ToastContainer />
       </div>
         </Route>
-        <Route exact path="/user">
+        <Route exact path="planilla-iepe/user">
           <User />
         </Route>
-        <Route exact path="/sabado-primera">
+        <Route exact path="planilla-iepe/sabado-primera">
           <SabadoListPimera />
         </Route>
-        <Route exact path="/sabado-segunda">
+        <Route exact path="planilla-iepe/sabado-segunda">
           <SabadoListSegunda />
         </Route>
-        <Route exact path="/domingo-primera">
+        <Route exact path="planilla-iepe/domingo-primera">
           <DomingoListPrimera />
         </Route>
-        <Route exact path="/domingo-segunda">
+        <Route exact path="planilla-iepe/domingo-segunda">
           <DomingoListSegunda />
         </Route>
       </Switch>

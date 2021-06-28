@@ -79,7 +79,7 @@ const LinksForm = (props) => {
       .signInWithPopup(googleAuthProvider)
       .then(({ user }) => {
         if (user.providerData[0].email === "iepuebloelegido@gmail.com") {
-          history.push("/user");
+          history.push("planilla-iepe/user");
         } else {
           console.log("no es el pastor");
         }

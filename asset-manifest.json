@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.1689b37b.chunk.css",
-    "main.js": "/static/js/main.d0299772.chunk.js",
-    "main.js.map": "/static/js/main.d0299772.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.83c3e0c4.js",
-    "runtime-main.js.map": "/static/js/runtime-main.83c3e0c4.js.map",
-    "static/css/2.0cd25043.chunk.css": "/static/css/2.0cd25043.chunk.css",
-    "static/js/2.6ea5df98.chunk.js": "/static/js/2.6ea5df98.chunk.js",
-    "static/js/2.6ea5df98.chunk.js.map": "/static/js/2.6ea5df98.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.9c7f7824f859c330e413719f9162a228.js": "/precache-manifest.9c7f7824f859c330e413719f9162a228.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.0cd25043.chunk.css.map": "/static/css/2.0cd25043.chunk.css.map",
-    "static/css/main.1689b37b.chunk.css.map": "/static/css/main.1689b37b.chunk.css.map",
-    "static/js/2.6ea5df98.chunk.js.LICENSE.txt": "/static/js/2.6ea5df98.chunk.js.LICENSE.txt"
+    "main.css": "/planilla-iepe/static/css/main.1689b37b.chunk.css",
+    "main.js": "/planilla-iepe/static/js/main.4dfdcb92.chunk.js",
+    "main.js.map": "/planilla-iepe/static/js/main.4dfdcb92.chunk.js.map",
+    "runtime-main.js": "/planilla-iepe/static/js/runtime-main.9e313365.js",
+    "runtime-main.js.map": "/planilla-iepe/static/js/runtime-main.9e313365.js.map",
+    "static/css/2.0cd25043.chunk.css": "/planilla-iepe/static/css/2.0cd25043.chunk.css",
+    "static/js/2.90092452.chunk.js": "/planilla-iepe/static/js/2.90092452.chunk.js",
+    "static/js/2.90092452.chunk.js.map": "/planilla-iepe/static/js/2.90092452.chunk.js.map",
+    "index.html": "/planilla-iepe/index.html",
+    "precache-manifest.947774ddc69890294e230dc7a8ef2383.js": "/planilla-iepe/precache-manifest.947774ddc69890294e230dc7a8ef2383.js",
+    "service-worker.js": "/planilla-iepe/service-worker.js",
+    "static/css/2.0cd25043.chunk.css.map": "/planilla-iepe/static/css/2.0cd25043.chunk.css.map",
+    "static/css/main.1689b37b.chunk.css.map": "/planilla-iepe/static/css/main.1689b37b.chunk.css.map",
+    "static/js/2.90092452.chunk.js.LICENSE.txt": "/planilla-iepe/static/js/2.90092452.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.83c3e0c4.js",
+    "static/js/runtime-main.9e313365.js",
     "static/css/2.0cd25043.chunk.css",
-    "static/js/2.6ea5df98.chunk.js",
+    "static/js/2.90092452.chunk.js",
     "static/css/main.1689b37b.chunk.css",
-    "static/js/main.d0299772.chunk.js"
+    "static/js/main.4dfdcb92.chunk.js"
   ]
 }

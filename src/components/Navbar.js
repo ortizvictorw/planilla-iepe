@@ -1,16 +1,21 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
-
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 export const Navbar_2 = () => {
   return (
     <div>
       <Navbar bg="primary" variant="dark">
-        <Navbar.Brand href="/">IEPE</Navbar.Brand>
+        <Link className="text-white" to="/"><h1>IEPE</h1></Link>
         <Nav className="mr-auto">
-          <Nav.Link href="/sabado-primera">Sabado Primera</Nav.Link>
-          <Nav.Link href="/sabado-segunda">Sabado Segunda</Nav.Link>
-          <Nav.Link href="/domingo-primera">Domingo Primera</Nav.Link>
-          <Nav.Link href="/domingo-segunda">Domingo Segunda</Nav.Link>
+          <Link className="text-white btn mx-1" to="/sabado-primera">Sabado Primera</Link>
+          <Link className="text-white btn mx-1" to="/sabado-segunda">Sabado Segunda</Link>
+          <Link className="text-white btn mx-1" to="/domingo-primera">Domingo Primera</Link>
+          <Link className="text-white btn mx-1" to="/domingo-segunda">Domingo Segunda</Link>
         </Nav>
       </Navbar>
     </div>
